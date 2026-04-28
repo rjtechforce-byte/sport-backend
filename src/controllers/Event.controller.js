@@ -2,6 +2,7 @@ const Event = require("../models/Event.model");
 const cloudinary = require("../services/cloudinary");
 const uploadToCloudinary = require("../utils/uploadToCloudinary");
 
+{/*Event.controller.js*/}
 exports.createEvent = async (req, res) => {
   try {
     console.log("FILE:", req.file);
